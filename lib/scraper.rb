@@ -42,5 +42,5 @@ doc.css(".post").first.css("p").text
 
 end
 
-Scraper.new.get_page
+#Scraper.new.get_page
 
