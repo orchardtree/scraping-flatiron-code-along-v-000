@@ -16,6 +16,8 @@ class Scraper
     end
   end
   
+  
+  def self.
 end
 
 
