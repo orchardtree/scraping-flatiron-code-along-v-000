@@ -26,6 +26,7 @@ class Scraper
       course.title = post.css("h2").text 
       course.schedule = post.css(".date").text 
       course.description = post.css("p").text
+      binding.pry
     end
   end
 
@@ -42,5 +43,5 @@ doc.css(".post").first.css("p").text
 
 end
 
-#Scraper.new.get_page
+Scraper.new.get_page
 
